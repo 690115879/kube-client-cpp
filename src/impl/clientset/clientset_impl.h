@@ -7,6 +7,7 @@ namespace kube_client_cpp
         : public Clientset
     {
     public:
-
+        ClientsetImpl() {}
+        ~ClientsetImpl() {}
     };
 }

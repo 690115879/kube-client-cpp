@@ -1,8 +1,8 @@
 
 namespace kube_client_cpp
 {
-    class ClientsetOptions
+    struct ClientsetOptions
     {
-
+        /* data */
     };
 }
