@@ -1,0 +1,1 @@
+project(kube_client_cpp)
