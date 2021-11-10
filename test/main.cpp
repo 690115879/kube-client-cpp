@@ -9,7 +9,7 @@ int main()
     std::cout << "Test begin" << std::endl;
 
     ClientsetOptions options {};
-    Clientset& clientset = Clientset::CreateClientset(options);
+    auto clientset = Clientset::CreateClientset(options);
     
     std::cout << "Test end" << std::endl;
     return 0;
